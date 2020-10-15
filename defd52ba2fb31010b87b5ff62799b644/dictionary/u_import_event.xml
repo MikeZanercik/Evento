@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Import Event" max_length="40" name="u_import_event" sizeclass="21848" type="collection">
+        <element label="Event Name" max_length="40" name="u_event_name" type="string"/>
+        <element label="Postal Code" max_length="40" name="u_postal_code" type="string"/>
+        <element label="Ticket URL" max_length="40" name="u_ticket_url" type="string"/>
+    </element>
+</database>
