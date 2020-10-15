@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Evento" max_length="40" name="u_evento" sizeclass="86" type="collection">
+        <element label="Event" max_length="32" name="u_event" reference="u_import_event" type="reference"/>
+        <element label="Event Name" max_length="40" name="u_event_name" type="string"/>
+        <element default="javascript: var u = new GlideRecord('sys_user'); u.get(gs.getUserID()); u.zip;" label="Postal Code" max_length="40" name="u_postal_code" type="string"/>
+        <element default="https://www.ticketmaster.com/" label="Ticket URL" max_length="40" name="u_ticket_url" type="string"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" reference_qual="manager=75826bf03710200044e0bfc8bcbe5d2b^EQ" reference_qual_condition="manager=75826bf03710200044e0bfc8bcbe5d2b^EQ" type="reference"/>
+    </element>
+</database>
